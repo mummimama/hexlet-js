@@ -1,6 +1,7 @@
 {
   "name": "hexlet",
   "version": "1.0.0",
+  "type": "module",
   "description": "module",
   "main": "index.js",
   "scripts": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/mummimama/hexlet-js/issues"
   },
-  "homepage": "https://github.com/mummimama/hexlet-js#readme"
+  "homepage": "https://github.com/mummimama/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
 }
